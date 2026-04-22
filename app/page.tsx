@@ -18,23 +18,23 @@ export default function Home() {
 
   const texts: Record<string, Record<string, string>> = {
     es: {
-       inicio: 'inicio',
-       acerca: 'acerca',
-       proyectos: 'proyectos',
-       testimonios: 'testimonios',
-       estudios: 'Estudios',
-       contacto: 'contacto',
+      inicio: 'inicio',
+      acerca: 'acerca',
+      proyectos: 'proyectos',
+      testimonios: 'testimonios',
+      estudios: 'estudios',
+      contacto: 'contacto',
       hola: 'Hola, soy',
       role: 'Desarrollador Full Stack & UI/UX Designer',
       subtitle: 'Creando experiencias digitales increíbles con código limpio y pasión',
       descargarCV: 'Descargar mi CV',
       contactar: 'Contactarme',
       acercaTitulo: 'Acerca de mí',
-       herramientas: 'HERRAMIENTAS Y TECNOLOGÍAS',
+      herramientas: 'HERRAMIENTAS Y TECNOLOGÍAS',
       proyectosTitulo: 'Mis Proyectos',
-       testimoniosTitulo: 'Testimonios',
-       estudiosTitulo: 'Estudios',
-       contactoTitulo: 'CONTACTO',
+      testimoniosTitulo: 'Testimonios',
+      estudiosTitulo: 'Estudios',
+      contactoTitulo: 'CONTACTO',
       contactame: 'CONTÁCTAME',
       nombre: 'Nombre',
       email: 'Email',
@@ -44,26 +44,28 @@ export default function Home() {
       telefonoLabel: 'Teléfono',
       ubicacionLabel: 'Ubicación',
       disponible: '¿Listo para empezar? Estoy disponible para proyectos freelance',
-       tituloAcerca: 'Apasionado por tecnología y música',
-       descripcionAcerca: 'Combino creatividad musical con soluciones tecnológicas.',
-      parrafoAcerca: 'Me apasiona la tecnología y la música. Uno de mis grandes hobbies es desempeñarme como guitarra en diferentes géneros como el Rock, Blues, entre otros. Combino mi creatividad musical con el desarrollo de soluciones tecnológicas innovadoras.',
-       bullets1: 'Guitarra eléctrica y bajo — interpretación en vivo y estudio',
-       bullets2: 'Desarrollo web full stack: React, TypeScript, Node.js, Next.js',
-       verProyectos: 'Ver todos los proyectos',
-       contactarme: 'Enviar mensaje',
-       livePerformance: 'Live performance • Electric Guitar',
-       tituloProyecto: 'Análisis de Contratos Legales con Inteligencia Artificial',
-       descripcionProyecto: 'Sistema inteligente para análisis automatizado de contratos legales utilizando procesamiento de lenguaje natural (NLP) y machine learning',
+      tituloAcerca: 'Apasionado por la tecnología y la música',
+      descripcionAcerca: 'Combino creatividad musical con soluciones tecnológicas.',
+      parrafoAcerca: 'Me apasiona la tecnología y la música. Combino mi creatividad musical con el desarrollo de soluciones tecnológicas innovadoras.',
+      bullets1: 'Desarrollo web full stack: React, TypeScript, Node.js, Next.js',
+      bullets2: 'Apasionado por la música: guitarrista y bajista en géneros como Rock, Metal, Blues, entre otros',
+      verProyectos: 'Ver todos los proyectos',
+      contactarme: 'Enviar mensaje',
+      livePerformance: 'Live performance • Electric Guitar',
+      tituloProyecto: 'Análisis de Contratos Legales con Inteligencia Artificial',
+      descripcionProyecto: 'Sistema inteligente para análisis automatizado de contratos legales utilizando procesamiento de lenguaje natural (NLP) y machine learning',
       codigo: 'Código',
       demo: 'Demo',
-        experienciaTitulo2: 'Ingeniería de Software',
-        experienciaInstitucion: 'Universidad Cooperativa de Colombia',
-        experienciaFecha: '2024 - Presente',
-        experienciaDescripcion: 'Formación en desarrollo de software y tecnologías modernas, enfocada en crear soluciones innovadoras y de alta calidad.',
-        experienciaTitulo2b: 'Certificado en Procesos para Software de Calidad, Desarrollo de Software',
-        experienciaInstitucion2: 'Servicio Nacional de Aprendizaje (SENA)',
-        experienciaUbicacion2: 'Palmira, Valle del Cauca',
-        experienciaFecha2: '01/2023 - 08/2023',
+      fueraDelCodigoTitulo: 'Fuera del Código',
+      fueraDelCodigoTexto: 'Apasionado por la música: guitarrista y bajista en géneros como Rock, Metal, Blues, entre otros',
+      experienciaTitulo2: 'Ingeniería de Software',
+      experienciaInstitucion: 'Universidad Cooperativa de Colombia',
+      experienciaFecha: '2024 - Presente',
+      experienciaDescripcion: 'Formación en desarrollo de software y tecnologías modernas, enfocada en crear soluciones innovadoras y de alta calidad.',
+      experienciaTitulo2b: 'Certificado en Procesos para Software de Calidad, Desarrollo de Software',
+      experienciaInstitucion2: 'Servicio Nacional de Aprendizaje (SENA)',
+      experienciaUbicacion2: 'Palmira, Valle del Cauca',
+      experienciaFecha2: '01/2023 - 08/2023',
        testimonio1: 'Juan es un desarrollador excepcional. Su atención al detalle y capacidad para resolver problemas complejos realmente es impresionante.',
        testimonio2: 'Trabajar con Juan fue una experiencia fantástica. Su código limpio, bien documentado y eficiente facilitó todo el proceso de desarrollo.',
        testimonio3: 'La creatividad de Juan y su enfoque innovador transformaron completamente nuestra visión en un producto excepcional.',
@@ -87,7 +89,7 @@ export default function Home() {
       descargarCV: 'Download my CV',
       contactar: 'Get in Touch',
       acercaTitulo: 'About Me',
-       herramientas: 'TOOLS & TECHNOLOGIES',
+      herramientas: 'TOOLS & TECHNOLOGIES',
       proyectosTitulo: 'My Projects',
       testimoniosTitulo: 'Testimonials',
       estudiosTitulo: 'Education',
@@ -103,16 +105,18 @@ export default function Home() {
       disponible: 'Ready to start? I am available for freelance projects',
       tituloAcerca: 'Passionate about technology and music',
       descripcionAcerca: 'I combine musical creativity with technological solutions.',
-      parrafoAcerca: 'I am passionate about technology and music. One of my great hobbies is playing guitar in different genres like Rock, Blues, among others. I combine my musical creativity with the development of innovative technological solutions.',
-       bullets1: 'Electric guitar and bass — live and studio performance',
-       bullets2: 'Full stack web development: React, TypeScript, Node.js, Next.js',
-       verProyectos: 'View all projects',
-       contactarme: 'Send message',
-       livePerformance: 'Live performance • Electric Guitar',
+      parrafoAcerca: 'I am passionate about technology and music. I combine my musical creativity with the development of innovative technological solutions.',
+      bullets1: 'Full stack web development: React, TypeScript, Node.js, Next.js',
+      bullets2: 'Passionate about music: guitarist and bassist in genres like Rock, Metal, Blues, among others',
+      verProyectos: 'View all projects',
+      contactarme: 'Send message',
+      livePerformance: 'Live performance • Electric Guitar',
       tituloProyecto: 'Legal Contracts Analysis with AI',
       descripcionProyecto: 'Intelligent system for automated analysis of legal contracts using natural language processing and machine learning',
       codigo: 'Code',
       demo: 'Demo',
+      fueraDelCodigoTitulo: 'Outside the Code',
+      fueraDelCodigoTexto: 'Passionate about music: guitarist and bassist in genres like Rock, Metal, Blues, among others',
        experienciaTitulo2: 'Software Engineering',
        experienciaInstitucion: 'Universidad Cooperativa de Colombia',
        experienciaFecha: '2024 - Present',
@@ -416,72 +420,70 @@ src="/1000247272-removebg-preview(1).png"
             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto rounded-full"></div>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-            >
-              <div className="about-card p-8 md:p-10 rounded-3xl bg-white/80 dark:bg-slate-900/60 backdrop-blur-sm border border-blue-100 dark:border-white/6 shadow-2xl">
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-tr from-blue-600 to-cyan-500 flex items-center justify-center text-white shadow-md">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
-                      <path d="M12 2L15 8l6 .5-4.5 3 1.5 6L12 15l-6 3 1.5-6L3 8.5 9 8l3-6z" fill="currentColor" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-xl md:text-2xl font-semibold text-slate-800 dark:text-white">{t('tituloAcerca')}</h3>
-                    <p className="text-sm text-slate-500 dark:text-slate-300">{t('descripcionAcerca')}</p>
-                  </div>
-                </div>
+           <div className="grid md:grid-cols-2 gap-12 items-center">
+             <motion.div
+               initial={{ opacity: 0, x: -50 }}
+               whileInView={{ opacity: 1, x: 0 }}
+               viewport={{ once: true }}
+               transition={{ delay: 0.2 }}
+               className="order-2 md:order-1"
+             >
+               <div className="about-card p-8 md:p-10 rounded-3xl bg-white/80 dark:bg-slate-900/60 backdrop-blur-sm border border-blue-100 dark:border-white/6 shadow-2xl">
+                 <div className="flex items-center gap-4 mb-4">
+                   <div className="w-12 h-12 rounded-lg bg-gradient-to-tr from-blue-600 to-cyan-500 flex items-center justify-center text-white shadow-md">
+                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                       <path d="M12 2L15 8l6 .5-4.5 3 1.5 6L12 15l-6 3 1.5-6L3 8.5 9 8l3-6z" fill="currentColor" />
+                     </svg>
+                   </div>
+                   <div>
+                     <h3 className="text-xl md:text-2xl font-semibold text-slate-800 dark:text-white">{t('tituloAcerca')}</h3>
+                     <p className="text-sm text-slate-500 dark:text-slate-300">{t('descripcionAcerca')}</p>
+                   </div>
+                 </div>
 
-                <p className="text-lg text-slate-700 dark:text-slate-200 leading-relaxed mb-6">
-                  {t('parrafoAcerca')}
-                </p>
+                 <p className="text-lg text-slate-700 dark:text-slate-200 leading-relaxed mb-6">
+                   {t('parrafoAcerca')}
+                 </p>
 
-                <ul className="grid sm:grid-cols-2 gap-3 mb-6">
-                  <li className="flex items-start gap-3">
-                    <span className="inline-flex items-center justify-center w-9 h-9 rounded-md bg-blue-50 text-blue-600 font-semibold">●</span>
-                    <span className="text-sm text-slate-600 dark:text-slate-300">{t('bullets1')}</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="inline-flex items-center justify-center w-9 h-9 rounded-md bg-blue-50 text-blue-600 font-semibold">●</span>
-                    <span className="text-sm text-slate-600 dark:text-slate-300">{t('bullets2')}</span>
-                  </li>
-                </ul>
+                 <ul className="grid sm:grid-cols-2 gap-3 mb-6">
+                   <li className="flex items-start gap-3">
+                     <span className="inline-flex items-center justify-center w-9 h-9 rounded-md bg-blue-50 text-blue-600 font-semibold">●</span>
+                     <span className="text-sm text-slate-600 dark:text-slate-300">{t('bullets1')}</span>
+                   </li>
+                   <li className="flex items-start gap-3">
+                     <span className="inline-flex items-center justify-center w-9 h-9 rounded-md bg-blue-50 text-blue-600 font-semibold">●</span>
+                     <span className="text-sm text-slate-600 dark:text-slate-300">{t('bullets2')}</span>
+                   </li>
+                 </ul>
 
-                <div className="flex gap-4">
-                  <button onClick={() => scrollToSection('proyectos')} className="px-5 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-semibold shadow hover:scale-[1.02] transition-transform">{t('verProyectos')}</button>
-                  <button onClick={() => scrollToSection('contacto')} className="px-5 py-3 border border-blue-100 text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-colors">{t('contactarme')}</button>
-                </div>
-              </div>
-            </motion.div>
+                 <div className="flex gap-4">
+                   <button onClick={() => scrollToSection('proyectos')} className="px-5 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-semibold shadow hover:scale-[1.02] transition-transform">{t('verProyectos')}</button>
+                   <button onClick={() => scrollToSection('contacto')} className="px-5 py-3 border border-blue-100 text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-colors">{t('contactarme')}</button>
+                 </div>
+               </div>
+             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.3 }}
-              whileHover={{ scale: 1.02 }}
-              className="relative"
-            >
-              <div className="about-img-wrapper relative rounded-3xl">
-                <div className="absolute -inset-3 bg-gradient-to-tr from-cyan-200 via-blue-100 to-indigo-50 rounded-3xl blur-2xl opacity-40"></div>
-                <div className="relative overflow-hidden rounded-2xl border-2 border-white/40 shadow-2xl">
-                  <img
-                    src="/WhatsApp Image 2026-04-21 at 9.20.52 AM.jpeg"
-                    alt="Banda de rock tocando en escenario"
-                    className="about-img w-full h-[420px] object-cover rounded-2xl transform transition-transform duration-700 will-change-transform"
-                    loading="lazy"
-                  />
-                  <div className="absolute left-6 bottom-6 bg-gradient-to-r from-black/30 to-transparent text-white px-4 py-2 rounded-md backdrop-blur-sm">
-                    <span className="text-sm font-medium">{t('livePerformance')}</span>
-                  </div>
-                </div>
-              </div>
-            </motion.div>
-          </div>
+             <motion.div
+               initial={{ opacity: 0, x: 50 }}
+               whileInView={{ opacity: 1, x: 0 }}
+               viewport={{ once: true }}
+               transition={{ delay: 0.3 }}
+               whileHover={{ scale: 1.02 }}
+               className="relative order-1 md:order-2"
+             >
+               <div className="about-img-wrapper relative rounded-3xl">
+                 <div className="absolute -inset-3 bg-gradient-to-tr from-cyan-200 via-blue-100 to-indigo-50 rounded-3xl blur-2xl opacity-40"></div>
+                 <div className="relative overflow-hidden rounded-2xl border-2 border-white/40 shadow-2xl">
+                   <img
+                     src="/1000247272-removebg-preview(1).png"
+                     alt="Juan Sebastian Estacio - Guitarrista"
+                     className="about-img w-full h-[420px] object-cover rounded-2xl transform transition-transform duration-700 will-change-transform"
+                     loading="lazy"
+                   />
+                 </div>
+               </div>
+             </motion.div>
+           </div>
         </div>
       </section>
 
@@ -882,9 +884,60 @@ src="/1000247272-removebg-preview(1).png"
             </form>
           </motion.div>
         </div>
-      </section>
+       </section>
 
-      <footer className="bg-gradient-to-r from-blue-900 to-cyan-900 text-white py-12">
+       <section id="fuera-del-codigo" className="py-32 bg-gradient-to-br from-blue-50 to-cyan-50">
+         <div className="max-w-7xl mx-auto px-6">
+           <motion.div
+             initial={{ opacity: 0, y: 20 }}
+             whileInView={{ opacity: 1, y: 0 }}
+             viewport={{ once: true }}
+             className="text-center mb-16"
+           >
+             <h2 className="text-5xl font-bold text-blue-600 mb-4">
+               <AnimatedText text={t('fueraDelCodigoTitulo')} speed={40} />
+             </h2>
+             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto rounded-full"></div>
+           </motion.div>
+
+           <motion.div
+             initial={{ opacity: 0, y: 20 }}
+             whileInView={{ opacity: 1, y: 0 }}
+             viewport={{ once: true }}
+             transition={{ delay: 0.2 }}
+             className="max-w-4xl mx-auto"
+           >
+             <div className="bg-white/80 dark:bg-slate-900/60 backdrop-blur-sm border border-blue-100 dark:border-white/6 shadow-2xl rounded-3xl overflow-hidden">
+               <div className="grid md:grid-cols-2 gap-0">
+                 <div className="relative">
+                   <img
+                     src="/WhatsApp Image 2026-04-21 at 9.20.52 AM.jpeg"
+                     alt="Música en vivo - Pasión por la guitarra"
+                     className="w-full h-72 md:h-auto object-cover"
+                     loading="lazy"
+                   />
+                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                   <div className="absolute bottom-4 left-4">
+                     <span className="inline-block px-4 py-2 bg-blue-600/80 backdrop-blur-sm text-white rounded-lg font-semibold">
+                       {t('livePerformance')}
+                     </span>
+                   </div>
+                 </div>
+                 <div className="p-8 md:p-10 flex flex-col justify-center">
+                   <h3 className="text-2xl font-bold text-slate-800 mb-4">
+                     {t('fueraDelCodigoTexto')}
+                   </h3>
+                   <p className="text-slate-600 leading-relaxed">
+                     Cuando no estoy programando, me dedico a tocar la guitarra y el bajo. Mi pasión por la música me ha llevado a explorar géneros como el Rock, Metal y Blues, tanto en presentaciones en vivo como en estudio. La música me inspira creatividad y me ayuda a mantener un equilibrio entre la tecnología y el arte.
+                   </p>
+                 </div>
+               </div>
+             </div>
+           </motion.div>
+         </div>
+       </section>
+
+       <footer className="bg-gradient-to-r from-blue-900 to-cyan-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col items-center justify-center space-y-4">
             <div className="flex gap-2">
