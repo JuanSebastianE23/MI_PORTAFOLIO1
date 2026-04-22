@@ -914,8 +914,8 @@ src="/1000247272-removebg-preview(1).png"
                 />
               ))}
             </div>
-            <p className="text-xl font-semibold">Portfolio Profesional</p>
-            <p className="text-blue-200">© 2026 - Todos los derechos reservados</p>
+             <p className="text-xl font-semibold">Portfolio Profesional</p>
+             <p className="text-blue-200">© 2026 Juan Sebastian Estacio - Todos los derechos reservados</p>
           </div>
         </div>
       </footer>
