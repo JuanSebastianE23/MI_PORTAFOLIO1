@@ -225,12 +225,12 @@ src="/1000247272-removebg-preview(1).png"
                 alt="Avatar Juan Sebastian"
                 className="w-8 h-8 rounded-full object-cover shadow-sm"
               />
-              <div className="flex flex-col leading-tight">
-                <div className="brand-name text-blue-600 text-base md:text-lg font-bold">
-                  <AnimatedText text={'Juan Sebastian'} speed={30} className="brand-name" />
-                </div>
-                <span className="text-xs text-slate-600 dark:text-white"><AnimatedText text={'Estacio'} speed={60} /></span>
-              </div>
+               <div className="flex flex-col leading-tight">
+                 <div className="brand-name text-blue-600 text-base md:text-lg font-bold">
+                   <AnimatedText text={'Juan Sebastian Estacio'} speed={30} className="brand-name" />
+                 </div>
+                 <span className="text-xs text-slate-600 dark:text-white"><AnimatedText text={'Full Stack Developer'} speed={60} /></span>
+               </div>
             </motion.div>
 
             <div className="hidden md:flex items-center gap-6">
