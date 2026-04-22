@@ -246,14 +246,17 @@ src="/1000247272-removebg-preview(1).png"
                 </motion.button>
               ))}
 
-              <div className="flex items-center gap-2">
-                <button
-                  onClick={toggleLang}
-                  title={lang === 'es' ? 'Cambiar a inglés' : 'Switch to Spanish'}
-                  className="p-2 rounded-md hover:bg-blue-50 dark:hover:bg-slate-700 transition-colors"
-                >
-                  <Globe className="w-5 h-5 text-slate-700" />
-                </button>
+               <div className="flex items-center gap-2">
+                 <button
+                   onClick={toggleLang}
+                   title={lang === 'es' ? 'Cambiar a inglés' : 'Switch to Spanish'}
+                   className="flex items-center gap-2 px-3 py-2 rounded-md hover:bg-blue-50 dark:hover:bg-slate-700 transition-colors"
+                 >
+                   <Globe className="w-5 h-5 text-slate-700" />
+                   <span className="text-sm font-medium text-slate-700">
+                     {lang === 'es' ? 'ES' : 'EN'}
+                   </span>
+                 </button>
                 <button
                   onClick={toggleDark}
                   title={dark ? (lang === 'es' ? 'Modo claro' : 'Light mode') : (lang === 'es' ? 'Modo oscuro' : 'Dark mode')}
@@ -314,14 +317,14 @@ src="/1000247272-removebg-preview(1).png"
               >
                 <AnimatedText text={t('role')} speed={40} />
               </motion.p>
-              <motion.p
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.9 }}
-                className="text-xl text-slate-600 mb-8 leading-relaxed"
-              >
-                <AnimatedText text={t('subtitle')} speed={30} />
-              </motion.p>
+               <motion.p
+                 initial={{ opacity: 0 }}
+                 animate={{ opacity: 1 }}
+                 transition={{ delay: 0.9 }}
+                 className="text-lg text-slate-600 mb-8 leading-relaxed"
+               >
+                 <AnimatedText text={t('subtitle')} speed={30} />
+               </motion.p>
 
                <motion.div
                  initial={{ opacity: 0 }}
