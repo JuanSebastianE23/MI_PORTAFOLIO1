@@ -501,10 +501,10 @@ src="/1000247272-removebg-preview(1).png"
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             {[
-              { Icon: Code2, title: lang === 'es' ? 'Desarrollo Web' : 'Web Development', desc: 'React, TypeScript, Node.js' },
-              { Icon: Palette, title: lang === 'es' ? 'Diseño UI/UX' : 'UI/UX Design', desc: 'Figma, Adobe XD' },
-              { Icon: Zap, title: lang === 'es' ? 'Performance' : 'Performance', desc: lang === 'es' ? 'Optimización y SEO' : 'Optimization and SEO' },
-              { Icon: Music, title: lang === 'es' ? 'Música' : 'Music', desc: lang === 'es' ? 'Rock, Blues, Guitarrista' : 'Rock, Blues, Guitarist' }
+              { Icon: Code2, title: lang === 'es' ? 'Desarrollo Web Full Stack' : 'Full Stack Web Development', desc: 'React, TypeScript, Node.js, Next.js' },
+              { Icon: Palette, title: lang === 'es' ? 'Diseño UI/UX' : 'UI/UX Design', desc: 'Figma, Adobe XD, Creative Suite' },
+              { Icon: Zap, title: lang === 'es' ? 'Performance & SEO' : 'Performance & SEO', desc: lang === 'es' ? 'Optimización avanzada y SEO técnico' : 'Advanced optimization and technical SEO' },
+              { Icon: Music, title: lang === 'es' ? 'Música' : 'Music', desc: lang === 'es' ? 'Guitarra eléctrica, Rock, Blues' : 'Electric Guitar, Rock, Blues' }
             ].map(({ Icon, title, desc }, index) => (
               <motion.div
                 key={index}
