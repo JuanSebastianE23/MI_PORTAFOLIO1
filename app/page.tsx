@@ -48,7 +48,6 @@ export default function Home() {
       descripcionAcerca: 'Combino creatividad musical con soluciones tecnológicas.',
       parrafoAcerca: 'Me apasiona la tecnología y la música. Combino mi creatividad musical con el desarrollo de soluciones tecnológicas innovadoras.',
       bullets1: 'Desarrollo web full stack: React, TypeScript, Node.js, Next.js',
-      bullets2: 'Apasionado por la música: guitarrista y bajista en géneros como Rock, Metal, Blues, entre otros',
       verProyectos: 'Ver todos los proyectos',
       contactarme: 'Enviar mensaje',
       livePerformance: 'Live performance • Electric Guitar',
@@ -107,7 +106,6 @@ export default function Home() {
       descripcionAcerca: 'I combine musical creativity with technological solutions.',
       parrafoAcerca: 'I am passionate about technology and music. I combine my musical creativity with the development of innovative technological solutions.',
       bullets1: 'Full stack web development: React, TypeScript, Node.js, Next.js',
-      bullets2: 'Passionate about music: guitarist and bassist in genres like Rock, Metal, Blues, among others',
       verProyectos: 'View all projects',
       contactarme: 'Send message',
       livePerformance: 'Live performance • Electric Guitar',
@@ -445,16 +443,12 @@ src="/1000247272-removebg-preview(1).png"
                    {t('parrafoAcerca')}
                  </p>
 
-                 <ul className="grid sm:grid-cols-2 gap-3 mb-6">
-                   <li className="flex items-start gap-3">
-                     <span className="inline-flex items-center justify-center w-9 h-9 rounded-md bg-blue-50 text-blue-600 font-semibold">●</span>
-                     <span className="text-sm text-slate-600 dark:text-slate-300">{t('bullets1')}</span>
-                   </li>
-                   <li className="flex items-start gap-3">
-                     <span className="inline-flex items-center justify-center w-9 h-9 rounded-md bg-blue-50 text-blue-600 font-semibold">●</span>
-                     <span className="text-sm text-slate-600 dark:text-slate-300">{t('bullets2')}</span>
-                   </li>
-                 </ul>
+                  <ul className="mb-6">
+                    <li className="flex items-start gap-3">
+                      <span className="inline-flex items-center justify-center w-9 h-9 rounded-md bg-blue-50 text-blue-600 font-semibold">●</span>
+                      <span className="text-sm text-slate-600 dark:text-slate-300">{t('bullets1')}</span>
+                    </li>
+                  </ul>
 
                  <div className="flex gap-4">
                    <button onClick={() => scrollToSection('proyectos')} className="px-5 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-semibold shadow hover:scale-[1.02] transition-transform">{t('verProyectos')}</button>
