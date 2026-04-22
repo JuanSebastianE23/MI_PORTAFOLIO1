@@ -5,6 +5,7 @@
 :root {
   --background: #f8fafc;
   --foreground: #0f172a;
+  --primary: #3b82f6;
 }
 
 .dark {
