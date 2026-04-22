@@ -51,7 +51,7 @@ export default function Home() {
       bullets2: 'Desarrollo web: React, TypeScript, Node.js',
        verProyectos: 'Ver todos los proyectos',
        contactarme: 'Enviar mensaje',
-      livePerformance: 'Live performance • Guitarra',
+       livePerformance: 'Live performance • Electric Guitar',
        tituloProyecto: 'Análisis de Contratos Legales con Inteligencia Artificial',
        descripcionProyecto: 'Sistema inteligente para análisis automatizado de contratos legales utilizando procesamiento de lenguaje natural (NLP) y machine learning',
       codigo: 'Código',
