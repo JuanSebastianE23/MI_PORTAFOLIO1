@@ -64,7 +64,7 @@ export default function Home() {
        experienciaInstitucion2: 'Servicio Nacional de Aprendizaje (SENA)',
        experienciaUbicacion2: 'Palmira, Valle del Cauca',
        experienciaFecha2: '01/2023 - 08/2023',
-       testimonio1: 'Juan es un desarrollador excepcional. Su atención al detalle y capacidad para resolver problemas complejos es impresionante.',
+       testimonio1: 'Juan es un desarrollador excepcional. Su atención al detalle y capacidad para resolver problemas complejos realmente es impresionante.',
        testimonio2: 'Trabajar con Juan fue una experiencia fantástica. Su código limpio y bien documentado facilitó todo el proceso de desarrollo.',
        testimonio3: 'La creatividad de Juan y su enfoque innovador transformaron nuestra visión en un producto excepcional.',
        nombre1: 'Richard Enríquez',
