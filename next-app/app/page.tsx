@@ -531,7 +531,7 @@ src="/1000247272-removebg-preview(1).png"
             transition={{ delay: 0.4 }}
             className="flex flex-wrap justify-center gap-4"
           >
-            {['React', 'TypeScript', 'Node.js', 'Tailwind', 'Next.js', 'MongoDB', 'PostgreSQL', 'Git'].map((tech, index) => (
+            {['React', 'TypeScript', 'Node.js', 'Next.js', 'Tailwind CSS', 'MongoDB', 'PostgreSQL', 'Git', 'Docker', 'AWS'].map((tech, index) => (
               <motion.span
                 key={index}
                 whileHover={{ scale: 1.1, y: -5 }}
