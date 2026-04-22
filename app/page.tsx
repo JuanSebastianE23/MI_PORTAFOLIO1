@@ -784,12 +784,12 @@ src="/1000247272-removebg-preview(1).png"
              <div className="bg-white/80 dark:bg-slate-900/60 backdrop-blur-sm border border-blue-100 dark:border-white/6 shadow-2xl rounded-3xl overflow-hidden">
                <div className="grid md:grid-cols-2 gap-0">
                  <div className="relative">
-                   <img
-                     src="/WhatsApp Image 2026-04-22 at 8.13.42 AM.jpeg"
-                     alt="Juan Sebastian Estacio"
-                     className="about-img w-full h-[420px] object-cover rounded-2xl transform transition-transform duration-700 will-change-transform"
-                     loading="lazy"
-                   />
+                    <img
+                      src="/WhatsApp Image 2026-04-21 at 9.20.52 AM.jpeg"
+                      alt="Música en vivo - Pasión por la guitarra"
+                      className="w-full h-72 md:h-auto object-cover"
+                      loading="lazy"
+                    />
                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
                    <div className="absolute bottom-4 left-4">
                      <span className="inline-block px-4 py-2 bg-blue-600/80 backdrop-blur-sm text-white rounded-lg font-semibold">
