@@ -1,14 +1,11 @@
 'use client';
 
 import { motion } from 'motion/react';
-import { Code2 } from 'lucide-react';
 
 export default function About({
   t,
-  scrollToSection,
 }: {
   t: (key: string) => string;
-  scrollToSection: (id: string) => void;
 }) {
   return (
     <section id="acerca" className="py-32 bg-gradient-to-br from-blue-50 to-cyan-50 section-about">

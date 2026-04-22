@@ -158,7 +158,7 @@ export default function Home() {
     <div className="app-root min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:bg-gradient-to-br dark:from-slate-900 dark:to-slate-800">
       <Navbar lang={lang} setLang={setLang} dark={dark} setDark={setDark} t={t} scrollToSection={scrollToSection} />
       <Hero t={t} lang={lang} scrollToSection={scrollToSection} />
-      <About t={t} scrollToSection={scrollToSection} />
+      <About t={t} />
       <Tools t={t} lang={lang} />
       <Projects t={t} />
       <Testimonials t={t} />

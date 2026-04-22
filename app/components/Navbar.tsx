@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'motion/react';
-import { Github, Linkedin, Globe, Moon, Sun, Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Globe, Moon, Sun } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import AnimatedText from './AnimatedText';
 
@@ -52,7 +52,7 @@ export default function Navbar({
             {['inicio', 'acerca', 'proyectos', 'testimonios', 'estudios', 'contacto'].map((item) => (
               <motion.button
                 key={item}
-                onClick={() => scrollToSection(item === 'acerca' ? 'acerca' : item === 'experiencia' ? 'estudios' : item)}
+                onClick={() => scrollToSection(item)}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="text-slate-700 hover:text-blue-600 transition-colors capitalize font-medium nav-link"
