@@ -451,10 +451,18 @@ src="/1000247272-removebg-preview(1).png"
                     </li>
                   </ul>
 
-                 <div className="flex gap-4">
-                   <button onClick={() => scrollToSection('proyectos')} className="px-5 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-semibold shadow hover:scale-[1.02] transition-transform">{t('verProyectos')}</button>
-                   <button onClick={() => scrollToSection('contacto')} className="px-5 py-3 border border-blue-100 text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-colors">{t('contactarme')}</button>
-                 </div>
+                <div className="flex gap-4">
+                  <motion.a
+                    href="/Hoja de Vida Juan Sebastian Estacio.pdf"
+                    download="Hoja de Vida Juan Sebastian Estacio.pdf"
+                    whileHover={{ scale: 1.05, boxShadow: '0 10px 30px rgba(37, 99, 235, 0.3)' }}
+                    whileTap={{ scale: 0.95 }}
+                    className="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-semibold shadow-lg flex items-center justify-center gap-2"
+                  >
+                    {t('descargarCV')}
+                    <ArrowRight className="w-5 h-5" />
+                  </motion.a>
+                </div>
                </div>
              </motion.div>
 
@@ -742,21 +750,19 @@ src="/1000247272-removebg-preview(1).png"
                     <Code2 className="w-8 h-8 text-white" />
                   </div>
                 </div>
-                <div className="flex-1">
-                   <div className="flex justify-between items-start mb-4">
-                     <div>
-                       <h3 className="text-2xl font-bold text-slate-800 mb-2">
-                         {t('experienciaTitulo2b')}
-                       </h3>
-                       <p className="text-lg text-blue-600 font-semibold">
-                         {t('experienciaInstitucion2')}
-                       </p>
-                     </div>
-                     <span className="px-3 py-1 bg-gradient-to-r from-blue-100 to-cyan-100 text-blue-700 rounded-lg text-sm font-semibold">
-                       {t('experienciaFecha2')}
-                     </span>
-                   </div>
-                </div>
+                 <div className="flex-1">
+                      <h3 className="text-2xl font-bold text-slate-800 mb-2">
+                        {t('experienciaTitulo2b')}
+                      </h3>
+                      <div className="flex items-center gap-2">
+                        <p className="text-lg text-blue-600 font-semibold">
+                          {t('experienciaInstitucion2')}
+                        </p>
+                        <span className="px-2 py-1 bg-gradient-to-r from-blue-100 to-cyan-100 text-blue-700 rounded text-xs font-semibold whitespace-nowrap">
+                          {t('experienciaFecha2')}
+                        </span>
+                      </div>
+                 </div>
               </div>
             </motion.div>
           </div>
