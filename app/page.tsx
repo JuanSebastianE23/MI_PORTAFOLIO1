@@ -275,21 +275,6 @@ src="/1000247272-removebg-preview(1).png"
         </div>
 
          <div className="relative max-w-7xl mx-auto px-6 py-12 md:py-20">
-           {/* Nueva imagen al principio del hero */}
-           <motion.div
-             initial={{ opacity: 0, scale: 0.9 }}
-             animate={{ opacity: 1, scale: 1 }}
-             transition={{ delay: 0.1 }}
-             className="flex justify-center mb-8"
-           >
-             <img
-               src="/WhatsApp Image 2026-04-22 at 8.13.42 AM.jpeg"
-               alt="Hero image"
-               className="w-32 h-32 md:w-40 md:h-40 rounded-2xl object-cover shadow-2xl border-4 border-white dark:border-slate-700"
-               loading="eager"
-             />
-           </motion.div>
-
            <motion.div
              initial={{ opacity: 0, y: 20 }}
              animate={{ opacity: 1, y: 0 }}
@@ -480,14 +465,14 @@ src="/1000247272-removebg-preview(1).png"
              >
                <div className="about-img-wrapper relative rounded-3xl">
                  <div className="absolute -inset-3 bg-gradient-to-tr from-cyan-200 via-blue-100 to-indigo-50 rounded-3xl blur-2xl opacity-40"></div>
-                 <div className="relative overflow-hidden rounded-2xl border-2 border-white/40 shadow-2xl">
-                   <img
-                     src="/1000247272-removebg-preview(1).png"
-                     alt="Juan Sebastian Estacio - Guitarrista"
-                     className="about-img w-full h-[420px] object-cover rounded-2xl transform transition-transform duration-700 will-change-transform"
-                     loading="lazy"
-                   />
-                 </div>
+                <div className="relative overflow-hidden rounded-2xl border-2 border-white/40 shadow-2xl">
+                  <img
+                    src="/1000247272-removebg-preview(1).png"
+                    alt="Juan Sebastian Estacio - Guitarrista"
+                    className="about-img w-full h-[420px] object-cover rounded-2xl transform transition-transform duration-700 will-change-transform"
+                    loading="lazy"
+                  />
+                </div>
                </div>
              </motion.div>
            </div>
@@ -764,7 +749,7 @@ src="/1000247272-removebg-preview(1).png"
                          {t('experienciaInstitucion2')}
                        </p>
                      </div>
-                     <span className="px-4 py-2 bg-gradient-to-r from-blue-100 to-cyan-100 text-blue-700 rounded-lg font-semibold">
+                     <span className="px-3 py-1 bg-gradient-to-r from-blue-100 to-cyan-100 text-blue-700 rounded-lg text-sm font-semibold">
                        {t('experienciaFecha2')}
                      </span>
                    </div>
@@ -800,9 +785,9 @@ src="/1000247272-removebg-preview(1).png"
                <div className="grid md:grid-cols-2 gap-0">
                  <div className="relative">
                    <img
-                     src="/WhatsApp Image 2026-04-21 at 9.20.52 AM.jpeg"
-                     alt="Música en vivo - Pasión por la guitarra"
-                     className="w-full h-72 md:h-auto object-cover"
+                     src="/WhatsApp Image 2026-04-22 at 8.13.42 AM.jpeg"
+                     alt="Juan Sebastian Estacio"
+                     className="about-img w-full h-[420px] object-cover rounded-2xl transform transition-transform duration-700 will-change-transform"
                      loading="lazy"
                    />
                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
