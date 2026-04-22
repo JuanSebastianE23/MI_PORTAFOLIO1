@@ -26,7 +26,7 @@ export default function Home() {
       contacto: 'contacto',
       hola: 'Hola, soy',
       role: 'Desarrollador Full Stack',
-      subtitle: 'Creando experiencias digitales increíbles con pasión y código limpio',
+      subtitle: 'Creando experiences digitales increíbles con pasión y código limpio',
       descargarCV: 'Descargar CV',
       contactar: 'Contactar',
       acercaTitulo: 'Acerca de mí',
