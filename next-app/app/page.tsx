@@ -203,7 +203,7 @@ const AnimatedTyping = ({ text, charDelay = 80, pause = 2200, loop = true, class
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    alert(lang === 'es' ? '¡Mensaje enviado! Gracias por contactarme.' : 'Message sent! Thank you for contacting me.');
+    alert(lang === 'es' ? '¡Mensaje enviado con éxito! Gracias por contactarme.' : 'Message sent successfully! Thank you for contacting me.');
     setFormData({ name: '', email: '', message: '' });
   };
 
