@@ -108,7 +108,7 @@ export default function Home() {
       bullets2: 'Web development: React, TypeScript, Node.js',
        verProyectos: 'View all projects',
        contactarme: 'Send message',
-      livePerformance: 'Live performance • Guitar',
+       livePerformance: 'Live performance • Electric Guitar',
       tituloProyecto: 'Legal Contracts Analysis with AI',
       descripcionProyecto: 'Intelligent system for automated analysis of legal contracts using natural language processing and machine learning',
       codigo: 'Code',
