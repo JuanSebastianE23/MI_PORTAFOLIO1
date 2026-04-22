@@ -451,20 +451,9 @@ src="/1000247272-removebg-preview(1).png"
                     </li>
                   </ul>
 
-                <div className="flex gap-4">
-                  <motion.a
-                    href="/Hoja de Vida Juan Sebastian Estacio.pdf"
-                    download="Hoja de Vida Juan Sebastian Estacio.pdf"
-                    whileHover={{ scale: 1.05, boxShadow: '0 10px 30px rgba(37, 99, 235, 0.3)' }}
-                    whileTap={{ scale: 0.95 }}
-                    className="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-semibold shadow-lg flex items-center justify-center gap-2"
-                  >
-                    {t('descargarCV')}
-                    <ArrowRight className="w-5 h-5" />
-                  </motion.a>
                 </div>
-               </div>
-             </motion.div>
+              </div>
+            </motion.div>
 
              <motion.div
                initial={{ opacity: 0, x: 50 }}
