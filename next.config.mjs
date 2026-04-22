@@ -12,9 +12,9 @@ const nextConfig = {
       },
     ],
   },
-  trailingSlash: true,
+  trailingSlash: false,
   reactStrictMode: true,
-  output: 'standalone',
+  output: 'export',
   eslint: {
     ignoreDuringBuilds: true,
   },
