@@ -53,7 +53,7 @@ export default function Home() {
       contactarme: 'Contactarme',
       livePerformance: 'Live performance • Guitarra',
        tituloProyecto: 'Análisis de Contratos Legales con Inteligencia Artificial',
-      descripcionProyecto: 'Sistema inteligente para análisis automatizado de contratos legales utilizando procesamiento de lenguaje natural y machine learning',
+       descripcionProyecto: 'Sistema inteligente para análisis automatizado de contratos legales utilizando procesamiento de lenguaje natural (NLP) y machine learning',
       codigo: 'Código',
       demo: 'Demo',
        experienciaTitulo2: 'Ingeniería de Software',
