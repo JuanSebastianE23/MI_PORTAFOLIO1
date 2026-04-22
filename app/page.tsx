@@ -22,7 +22,7 @@ export default function Home() {
       acerca: 'acerca',
       proyectos: 'proyectos',
       testimonios: 'testimonios',
-      experiencia: 'experiencia',
+      estudios: 'estudios',
       contacto: 'contacto',
       hola: 'Hola, soy',
       role: 'Desarrollador Full Stack & UI/UX Designer',
@@ -32,9 +32,9 @@ export default function Home() {
       acercaTitulo: 'Acerca de mí',
        herramientas: 'HERRAMIENTAS Y TECNOLOGÍAS',
       proyectosTitulo: 'Mis Proyectos',
-      testimoniosTitulo: 'Testimonios',
-      experienciaTitulo: 'Experiencia',
-      contactoTitulo: 'CONTACTO',
+       testimoniosTitulo: 'Testimonios',
+       estudiosTitulo: 'Estudios',
+       contactoTitulo: 'CONTACTO',
       contactame: 'CONTÁCTAME',
       nombre: 'Nombre',
       email: 'Email',
@@ -56,14 +56,14 @@ export default function Home() {
        descripcionProyecto: 'Sistema inteligente para análisis automatizado de contratos legales utilizando procesamiento de lenguaje natural (NLP) y machine learning',
       codigo: 'Código',
       demo: 'Demo',
-       experienciaTitulo2: 'Ingeniería de Software',
-       experienciaInstitucion: 'Universidad Cooperativa de Colombia',
-       experienciaFecha: '2024 - Presente',
-       experienciaDescripcion: 'Formación en desarrollo de software y tecnologías modernas, enfocada en crear soluciones innovadoras y de alta calidad.',
-       experienciaTitulo2b: 'Certificado en Procesos para Software de Calidad, Desarrollo de Software',
-       experienciaInstitucion2: 'Servicio Nacional de Aprendizaje (SENA)',
-       experienciaUbicacion2: 'Palmira, Valle del Cauca',
-       experienciaFecha2: '01/2023 - 08/2023',
+        estudiosTitulo2: 'Ingeniería de Software',
+        estudiosInstitucion: 'Universidad Cooperativa de Colombia',
+        estudiosFecha: '2024 - Presente',
+        estudiosDescripcion: 'Formación en desarrollo de software y tecnologías modernas, enfocada en crear soluciones innovadoras y de alta calidad.',
+        estudiosTitulo2b: 'Certificado en Procesos para Software de Calidad, Desarrollo de Software',
+        estudiosInstitucion2: 'Servicio Nacional de Aprendizaje (SENA)',
+        estudiosUbicacion2: 'Palmira, Valle del Cauca',
+        estudiosFecha2: '01/2023 - 08/2023',
        testimonio1: 'Juan es un desarrollador excepcional. Su atención al detalle y capacidad para resolver problemas complejos realmente es impresionante.',
        testimonio2: 'Trabajar con Juan fue una experiencia fantástica. Su código limpio, bien documentado y eficiente facilitó todo el proceso de desarrollo.',
        testimonio3: 'La creatividad de Juan y su enfoque innovador transformaron completamente nuestra visión en un producto excepcional.',
@@ -90,7 +90,7 @@ export default function Home() {
        herramientas: 'TOOLS & TECHNOLOGIES',
       proyectosTitulo: 'My Projects',
       testimoniosTitulo: 'Testimonials',
-      experienciaTitulo: 'Experience',
+      estudiosTitulo: 'Education',
       contactoTitulo: 'CONTACT',
       contactame: 'GET IN TOUCH',
       nombre: 'Name',
@@ -113,14 +113,14 @@ export default function Home() {
       descripcionProyecto: 'Intelligent system for automated analysis of legal contracts using natural language processing and machine learning',
       codigo: 'Code',
       demo: 'Demo',
-       experienciaTitulo2: 'Software Engineering',
-       experienciaInstitucion: 'Universidad Cooperativa de Colombia',
-       experienciaFecha: '2024 - Present',
-       experienciaDescripcion: 'Training in software development and modern technologies, focused on creating innovative and high-quality solutions.',
-       experienciaTitulo2b: 'Certificate in Software Quality Processes, Software Development',
-       experienciaInstitucion2: 'National Learning Service (SENA)',
-       experienciaUbicacion2: 'Palmira, Valle del Cauca',
-       experienciaFecha2: '01/2023 - 08/2023',
+       estudiosTitulo2: 'Software Engineering',
+       estudiosInstitucion: 'Universidad Cooperativa de Colombia',
+       estudiosFecha: '2024 - Present',
+       estudiosDescripcion: 'Training in software development and modern technologies, focused on creating innovative and high-quality solutions.',
+       estudiosTitulo2b: 'Certificate in Software Quality Processes, Software Development',
+       estudiosInstitucion2: 'National Learning Service (SENA)',
+       estudiosUbicacion2: 'Palmira, Valle del Cauca',
+       estudiosFecha2: '01/2023 - 08/2023',
        testimonio1: 'Juan is an exceptional developer. His attention to detail and ability to solve complex problems is impressive.',
        testimonio2: 'Working with Juan was a fantastic experience. His clean and well-documented code facilitated the entire development process.',
        testimonio3: "Juan's creativity and innovative approach transformed our vision into an exceptional product.",
@@ -234,15 +234,15 @@ src="/1000247272-removebg-preview(1).png"
             </motion.div>
 
             <div className="hidden md:flex items-center gap-6">
-              {['inicio', 'acerca', 'proyectos', 'testimonios', 'experiencia', 'contacto'].map((item) => (
-                <motion.button
-                  key={item}
-                  onClick={() => scrollToSection(item)}
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="text-slate-700 hover:text-blue-600 transition-colors capitalize font-medium nav-link"
-                >
-                  {item === 'acerca' ? (lang === 'es' ? 'Acerca de mí' : 'About me') : (t(item) || item)}
+               {['inicio', 'acerca', 'proyectos', 'testimonios', 'estudios', 'contacto'].map((item) => (
+              <motion.button
+                key={item}
+                onClick={() => scrollToSection( item === 'acerca' ? 'acerca' : item === 'experiencia' ? 'estudios' : item)}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="text-slate-700 hover:text-blue-600 transition-colors capitalize font-medium nav-link"
+              >
+                {item === 'acerca' ? (lang === 'es' ? 'Acerca de mí' : 'About me') : (t(item) || item)}
                 </motion.button>
               ))}
 
@@ -639,19 +639,16 @@ src="/1000247272-removebg-preview(1).png"
               {
                 name: t('nombre1'),
                 role: t('rol1'),
-                image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
                 text: t('testimonio1')
               },
               {
                 name: t('nombre2'),
                 role: t('rol2'),
-                image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400',
                 text: t('testimonio2')
               },
               {
                 name: t('nombre3'),
                 role: t('rol3'),
-                image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400',
                 text: t('testimonio3')
               }
             ].map((testimonial, index) => (
@@ -669,27 +666,20 @@ src="/1000247272-removebg-preview(1).png"
                     <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>
-                <p className="text-slate-700 mb-6 leading-relaxed italic">
-                  "{testimonial.text}"
-                </p>
-                <div className="flex items-center gap-4">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="w-14 h-14 rounded-full object-cover border-2 border-blue-300"
-                  />
-                  <div>
-                    <h4 className="font-bold text-slate-800">{testimonial.name}</h4>
-                    <p className="text-sm text-blue-600">{testimonial.role}</p>
-                  </div>
-                </div>
+                 <p className="text-slate-700 mb-6 leading-relaxed italic">
+                   "{testimonial.text}"
+                 </p>
+                 <div className="text-center">
+                   <h4 className="font-bold text-slate-800 text-lg">{testimonial.name}</h4>
+                   <p className="text-sm text-blue-600">{testimonial.role}</p>
+                 </div>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      <section id="experiencia" className="py-32 bg-gradient-to-br from-blue-50 to-cyan-50 section-experience">
+       <section id="estudios" className="py-32 bg-gradient-to-br from-blue-50 to-cyan-50 section-experience">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -698,7 +688,7 @@ src="/1000247272-removebg-preview(1).png"
             className="text-center mb-16"
           >
             <h2 className="text-5xl font-bold text-blue-600 mb-4">
-              <AnimatedText text={t('experienciaTitulo')} speed={40} />
+              <AnimatedText text={t('estudiosTitulo')} speed={40} />
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto rounded-full"></div>
           </motion.div>
