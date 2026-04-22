@@ -795,7 +795,7 @@ src="/1000247272-removebg-preview(1).png"
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {[
-              { Icon: Mail, label: t('emailLabel'), value: 'juan.estacioenri@campusucc.edu.co', href: 'mailto:juan.estacioenri@campusucc.edu.co' },
+               { Icon: Mail, href: 'mailto:juan.estacioenri@campusucc.edu.co', label: t('emailLabel'), value: 'juan.estacioenri@campusucc.edu.co' },
               { Icon: Phone, label: t('telefonoLabel'), value: '+57 316 572 59 72', href: 'tel:+573165725972' },
               { Icon: MapPin, label: t('ubicacionLabel'), value: 'Pasto, Nariño', href: null }
             ].map(({ Icon, label, value, href }, index) => (
