@@ -28,7 +28,7 @@ export default function Home() {
       role: 'Desarrollador Full Stack & UI/UX Designer',
       subtitle: 'Creando experiencias digitales increíbles con código limpio y pasión',
       descargarCV: 'Descargar mi CV',
-      contactar: 'Contactar',
+      contactar: 'Contactarme',
       acercaTitulo: 'Acerca de mí',
       herramientas: 'HERRAMIENTAS',
       proyectosTitulo: 'Mis Proyectos',
