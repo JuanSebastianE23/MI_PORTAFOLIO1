@@ -62,8 +62,7 @@ export default function Home() {
       experienciaFecha: '2024 - Presente',
       experienciaDescripcion: 'Formación en desarrollo de software y tecnologías modernas, enfocada en crear soluciones innovadoras y de alta calidad.',
       experienciaTitulo2b: 'Certificado en Procesos para Software de Calidad, Desarrollo de Software',
-      experienciaInstitucion2: 'Servicio Nacional de Aprendizaje (SENA)',
-      experienciaUbicacion2: 'Palmira, Valle del Cauca',
+      experienciaInstitucion2: 'Servicio Nacional de Aprendizaje (SENA) - Palmira, Valle del Cauca',
       experienciaFecha2: '01/2023 - 08/2023',
        testimonio1: 'Juan es un desarrollador excepcional. Su atención al detalle y capacidad para resolver problemas complejos realmente es impresionante.',
        testimonio2: 'Trabajar con Juan fue una experiencia fantástica. Su código limpio, bien documentado y eficiente facilitó todo el proceso de desarrollo.',
@@ -119,10 +118,9 @@ export default function Home() {
        experienciaInstitucion: 'Universidad Cooperativa de Colombia',
        experienciaFecha: '2024 - Present',
        experienciaDescripcion: 'Training in software development and modern technologies, focused on creating innovative and high-quality solutions.',
-       experienciaTitulo2b: 'Certificate in Software Quality Processes, Software Development',
-       experienciaInstitucion2: 'National Learning Service (SENA)',
-       experienciaUbicacion2: 'Palmira, Valle del Cauca',
-       experienciaFecha2: '01/2023 - 08/2023',
+      experienciaTitulo2b: 'Certificate in Software Quality Processes, Software Development',
+      experienciaInstitucion2: 'National Learning Service (SENA) - Palmira, Valle del Cauca',
+      experienciaFecha2: '01/2023 - 08/2023',
        testimonio1: 'Juan is an exceptional developer. His attention to detail and ability to solve complex problems is impressive.',
        testimonio2: 'Working with Juan was a fantastic experience. His clean and well-documented code facilitated the entire development process.',
        testimonio3: "Juan's creativity and innovative approach transformed our vision into an exceptional product.",
@@ -276,22 +274,37 @@ src="/1000247272-removebg-preview(1).png"
           <div className="absolute bottom-20 left-1/2 w-72 h-72 bg-sky-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob animation-delay-4000"></div>
         </div>
 
-        <div className="relative max-w-7xl mx-auto px-6 py-12 md:py-20">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-center mb-12"
-          >
-            <motion.h1
-              initial={{ opacity: 0, y: -6 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.18 }}
-              className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-blue-600"
-            >
-              <AnimatedTyping text="Juan Sebastian Estacio" charDelay={80} pause={2200} loop={true} className="inline-block" />
-            </motion.h1>
-          </motion.div>
+         <div className="relative max-w-7xl mx-auto px-6 py-12 md:py-20">
+           {/* Nueva imagen al principio del hero */}
+           <motion.div
+             initial={{ opacity: 0, scale: 0.9 }}
+             animate={{ opacity: 1, scale: 1 }}
+             transition={{ delay: 0.1 }}
+             className="flex justify-center mb-8"
+           >
+             <img
+               src="/WhatsApp Image 2026-04-22 at 8.13.42 AM.jpeg"
+               alt="Hero image"
+               className="w-32 h-32 md:w-40 md:h-40 rounded-2xl object-cover shadow-2xl border-4 border-white dark:border-slate-700"
+               loading="eager"
+             />
+           </motion.div>
+
+           <motion.div
+             initial={{ opacity: 0, y: 20 }}
+             animate={{ opacity: 1, y: 0 }}
+             transition={{ duration: 0.8 }}
+             className="text-center mb-12"
+           >
+             <motion.h1
+               initial={{ opacity: 0, y: -6 }}
+               animate={{ opacity: 1, y: 0 }}
+               transition={{ delay: 0.18 }}
+               className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-blue-600"
+             >
+               <AnimatedTyping text="Juan Sebastian Estacio" charDelay={80} pause={2200} loop={true} className="inline-block" />
+             </motion.h1>
+           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -742,22 +755,19 @@ src="/1000247272-removebg-preview(1).png"
                   </div>
                 </div>
                 <div className="flex-1">
-                  <div className="flex justify-between items-start mb-4">
-                    <div>
-                      <h3 className="text-2xl font-bold text-slate-800 mb-2">
-                        {t('experienciaTitulo2b')}
-                      </h3>
-                      <p className="text-lg text-blue-600 font-semibold">
-                        {t('experienciaInstitucion2')}
-                      </p>
-                      <p className="text-sm text-slate-500">
-                        {t('experienciaUbicacion2')}
-                      </p>
-                    </div>
-                    <span className="px-4 py-2 bg-gradient-to-r from-blue-100 to-cyan-100 text-blue-700 rounded-lg font-semibold">
-                      {t('experienciaFecha2')}
-                    </span>
-                  </div>
+                   <div className="flex justify-between items-start mb-4">
+                     <div>
+                       <h3 className="text-2xl font-bold text-slate-800 mb-2">
+                         {t('experienciaTitulo2b')}
+                       </h3>
+                       <p className="text-lg text-blue-600 font-semibold">
+                         {t('experienciaInstitucion2')}
+                       </p>
+                     </div>
+                     <span className="px-4 py-2 bg-gradient-to-r from-blue-100 to-cyan-100 text-blue-700 rounded-lg font-semibold">
+                       {t('experienciaFecha2')}
+                     </span>
+                   </div>
                 </div>
               </div>
             </motion.div>
@@ -832,7 +842,7 @@ src="/1000247272-removebg-preview(1).png"
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {[
-               { Icon: Mail, href: 'mailto:juan.estacioenri@campusucc.edu.co', label: t('emailLabel'), value: 'juan.estacioenri@campusucc.edu.co' },
+               { Icon: Mail, href: 'mailto:sebastianjuan514@gmail.com', label: t('emailLabel'), value: 'sebastianjuan514@gmail.com' },
                { Icon: Phone, label: t('telefonoLabel'), value: '+57 300 123 4567', href: 'tel:+573001234567' },
                { Icon: MapPin, label: t('ubicacionLabel'), value: 'San Juan de Pasto, Nariño, Colombia', href: null }
             ].map(({ Icon, label, value, href }, index) => (
@@ -932,30 +942,12 @@ src="/1000247272-removebg-preview(1).png"
         </section>
 
        <footer className="bg-gradient-to-r from-blue-900 to-cyan-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-col items-center justify-center space-y-4">
-            <div className="flex gap-2">
-              {[...Array(3)].map((_, i) => (
-                <motion.div
-                  key={i}
-                  animate={{
-                    y: [0, -10, 0],
-                    scale: [1, 1.2, 1]
-                  }}
-                  transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    delay: i * 0.2
-                  }}
-                  className="w-3 h-3 bg-cyan-400 rounded-full"
-                />
-              ))}
-            </div>
-             <p className="text-xl font-semibold">Portfolio Profesional</p>
-             <p className="text-blue-200">© 2026 Juan Sebastian Estacio - Todos los derechos reservados</p>
-          </div>
-        </div>
-      </footer>
+         <div className="max-w-7xl mx-auto px-6">
+           <div className="flex flex-col items-center justify-center">
+             <p className="text-xl font-semibold">© 2026 Juan Sebastian Estacio - Todos los derechos reservados</p>
+           </div>
+         </div>
+       </footer>
     </div>
   );
 }
