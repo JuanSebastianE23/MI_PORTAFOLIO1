@@ -285,7 +285,7 @@ src="/1000247272-removebg-preview(1).png"
               initial={{ opacity: 0, y: -6 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.18 }}
-              className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-sky-600 via-blue-500 to-cyan-400 bg-clip-text text-transparent"
+              className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-blue-600"
             >
               <AnimatedTyping text="Juan Sebastian Estacio" charDelay={80} pause={2200} loop={true} className="inline-block" />
             </motion.h1>
