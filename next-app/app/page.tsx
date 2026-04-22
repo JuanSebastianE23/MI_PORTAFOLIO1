@@ -66,7 +66,7 @@ export default function Home() {
        experienciaFecha2: '01/2023 - 08/2023',
        testimonio1: 'Juan es un desarrollador excepcional. Su atención al detalle y capacidad para resolver problemas complejos realmente es impresionante.',
        testimonio2: 'Trabajar con Juan fue una experiencia fantástica. Su código limpio, bien documentado y eficiente facilitó todo el proceso de desarrollo.',
-       testimonio3: 'La creatividad de Juan y su enfoque innovador transformaron nuestra visión en un producto excepcional.',
+       testimonio3: 'La creatividad de Juan y su enfoque innovador transformaron completamente nuestra visión en un producto excepcional.',
        nombre1: 'Richard Enríquez',
        nombre2: 'David Erazo',
        nombre3: 'Sonia Guerrero',
