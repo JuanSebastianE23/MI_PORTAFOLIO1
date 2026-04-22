@@ -34,3 +34,10 @@ coverage
 # Typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE
+.vscode
+.idea
+
+# OS
+Thumbs.db
