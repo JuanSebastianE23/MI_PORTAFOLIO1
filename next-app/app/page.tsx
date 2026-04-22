@@ -797,7 +797,7 @@ src="/1000247272-removebg-preview(1).png"
             {[
                { Icon: Mail, href: 'mailto:juan.estacioenri@campusucc.edu.co', label: t('emailLabel'), value: 'juan.estacioenri@campusucc.edu.co' },
                { Icon: Phone, label: t('telefonoLabel'), value: '+57 300 123 4567', href: 'tel:+573001234567' },
-              { Icon: MapPin, label: t('ubicacionLabel'), value: 'Pasto, Nariño', href: null }
+               { Icon: MapPin, label: t('ubicacionLabel'), value: 'San Juan de Pasto, Nariño, Colombia', href: null }
             ].map(({ Icon, label, value, href }, index) => (
               <motion.div
                 key={index}
