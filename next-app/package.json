@@ -1,7 +1,8 @@
 {
-  "name": "portfolio-next",
-  "version": "0.1.0",
+  "name": "portfolio-juan-estacio",
+  "version": "0.1.1",
   "private": true,
+  "description": "Portfolio profesional de Juan Sebastian Estacio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
