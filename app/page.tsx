@@ -449,13 +449,12 @@ src="/1000247272-removebg-preview(1).png"
                       <span className="inline-flex items-center justify-center w-9 h-9 rounded-md bg-blue-50 text-blue-600 font-semibold">●</span>
                       <span className="text-sm text-slate-600 dark:text-slate-300">{t('bullets1')}</span>
                     </li>
-                  </ul>
+                   </ul>
 
-                </div>
-              </div>
-            </motion.div>
+                 </div>
+               </motion.div>
 
-             <motion.div
+              <motion.div
                initial={{ opacity: 0, x: 50 }}
                whileInView={{ opacity: 1, x: 0 }}
                viewport={{ once: true }}
