@@ -1,4 +1,4 @@
-# Portfolio - Next.js
+# Portfolio Profesional - Juan Sebastian Estacio
 
 ## Instalación
 
@@ -13,6 +13,8 @@ npm install
 npm run dev
 ```
 
+Accede a [http://localhost:3000](http://localhost:3000)
+
 ## Producción
 
 ```bash
@@ -22,5 +24,7 @@ npm run start
 
 ## Notas
 
-- Las imágenes ahora se cargan desde URLs remotas (GitHub raw). Para producción, coloca las imágenes locales en `/public` y actualiza las rutas.
-- El formulario muestra un alert(). Para un backend real, implementa API route en Next.js.
+- Las imágenes se sirven desde la carpeta `/public`
+- El formulario de contacto muestra un alert de confirmación
+- Portfolio responsivo con modo oscuro/claro
+- Diseño moderno con animaciones usando Framer Motion
